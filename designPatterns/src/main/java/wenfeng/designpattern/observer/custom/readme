@@ -1,0 +1,9 @@
+观察者模式：
+    观察者模式主要有两个角色
+        Subject 观察主题对象，也可以叫被观察或者被订阅对象
+        Observer 观察者或者订阅者对象，当Subject有变动，就会通知到每一个Observer
+
+案例：
+    User对象订阅了某个公众号，公众号有新的消息了就要通知User
+        User是Observer
+        公众号是Subject
